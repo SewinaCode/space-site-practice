@@ -1,0 +1,117 @@
+body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a { 
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0px 10px 130px;
+    display: flex;
+    opacity: 100%;
+}
+
+img {
+    width: auto;
+    height: 60px;
+    margin: 10px 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 150px;
+    letter-spacing: 30px;
+    width: 25%;
+    margin: 2px 0 10px 0;
+}
+
+h2 {
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: lighter;
+    font-size: 25px;
+    width: 50%;
+}
+
+hr {
+    display: inline-flex;
+    width: 68%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 2;
+    width: 50%;
+}
+
+span {
+    position: relative;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+button {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 40px;
+    display: inline;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.btn{
+    width: 25%;
+    position: relative;
+    left: 120%;
+    bottom: 300px;
+}
+
+.text {
+    width: 100%;
+}
+
+.text-container {
+    width: 50%;
+    float: left;
+    margin-left: 200px;
+}
+
+.topnav {
+    position: relative;
+    width: 55.2%;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 45%;
+    background:rgba(255,255,255, 0.3);
+    display: inline-flex;
+    align-items: center;
+} 
+
+.topleft-item {
+    position: absolute;
+    width: 55.2%;
+    height: 90px;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+}
